@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+        function linebreaker() {
+            document.write("<br><br><br><hr><br><br>");
+        }
+        function write(phrase){
+            document.write("<big>" + phrase + "<big>");
+            linebreaker();
+        }
+        var year = 2025;
+        write("Juan is " + (year-2000) + " years old");
+        write("Pedro is " + (year-1995) + " years old");
+        year = 2030
+        write("Carlos is " + (year-2005) + " years old");
+    </script>
+</body>
+</html>
