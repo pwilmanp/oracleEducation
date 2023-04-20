@@ -24,7 +24,7 @@ function drawBar(x, y, series, colors, text) {
     for (var i = 0; i < series.length; i++) {
         var height = series[i];
         drawRectangle(x, y + totalHeight, 50, height, colors[i]);
-        totalHeight = totalHeight + height;
+        totalHeight += height;
     }
 }
 
