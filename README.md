@@ -1,8 +1,7 @@
-# Logic-For-Programming---ONE
+# Oracle Next Education
 
-Practice coding creating different examples of each course <br>
+### Module one: Logic for programming <br>
+###### JavaScript, Html and Css <br>
 
-Course 1 : First steps <br>
-Course 2 : Important concepts <br>
-Course 3 : Exercises with games and animations <br>
-
+### Module two: Back-end <br>
+###### Java and Spring <br>
